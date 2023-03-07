@@ -1,0 +1,38 @@
+html {
+    font-size: 10px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-size: 2rem;
+    margin-top: 1rem;
+}
+
+h2 {
+    padding: 1rem;
+}
+
+.fotos {
+    display: grid;
+    /* grid-template: 1rem 1rem; */
+    grid-template-columns: 15rem 15rem;
+}
+
+
+.fotos img {
+    width: 15rem;
+    height: calc(150px * (5/4));
+}
